@@ -22,7 +22,6 @@ class Student
   
   def self.new
     
-    
   end
 end
 
