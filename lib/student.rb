@@ -22,9 +22,5 @@ class Student
   def self.all
     
   end
-  
-  def self.new
-    
-  end
 end
 
