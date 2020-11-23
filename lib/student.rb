@@ -14,7 +14,7 @@ class Student
 
   def self.create_from_collection(students_array)
     students_array.each do |name, location|
-      self.send("#{name}=", location)
+      Student.new("#{name}=", location)
     end
     self
   end
